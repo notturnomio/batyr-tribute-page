@@ -1,0 +1,164 @@
+
+html {
+
+}
+
+body {
+  background: #d4a85d;
+  font-family: "Molengo";
+  font-size: 0.5rem;
+  text-align: center;
+  color: #333;
+}
+
+#title {
+  font-family: "Caveat";
+  color: #4f4430;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: -5px;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 1rem;
+  color: #4f4430;
+}
+
+#tribute-info {
+  margin-top: -20px;
+  text-align: justify;
+  font-size: 1.2rem;
+  color: #4f4430;
+}
+
+#main {
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 5px;
+  background: white;
+  align-content: center;
+  max-width: 1200px;
+}
+
+a {
+  color: #d4a85d;
+}
+
+a:visited {
+  color: #4f4430;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  #title {
+    font-size: 3.5rem;
+    line-height: auto;
+  }
+  .flex-container {
+    flex-wrap: wrap;
+  }
+  #box-1 {
+      width: 100%;
+      margin: 20px;
+    }
+
+  #box-2 {
+      width: 100%;
+      margin: 20px;
+    }
+}
+
+#box-1 {
+    flex-basis: 100%;
+    margin: 10px;
+    align-self: flex-start;
+    flex-shrink: 5;
+  }
+
+#box-2 {
+    flex-basis: 100%;
+    margin: 10px;
+    align-items: flex-start;
+    flex-shrink: 3;
+  }
+
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  display: block;
+}
+
+#row {
+width: 100%;
+margin-top: 30px;
+align-items: center;
+}
+
+#astudio {
+  width: 100%;
+  height: auto;
+  align: center;
+}
+
+#covers-title {
+  font-family: "Caveat";
+  color: #ffffff;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#covers {
+  background: #4f4430;
+  padding: 10px;
+  margin: 0;
+}
+
+.albums-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.item {
+  flex: 30%;
+  max-width: 80%;
+  padding: 10px;
+}
+
+.item img {
+  max-width: inherit;
+  margin: 20px;
+  vertical-align: middle;
+}
+
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-top: 30px;
+}
+
+.video-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
